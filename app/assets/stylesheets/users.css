@@ -1,0 +1,73 @@
+.UserHeader{
+    width: 500px;
+    height: 20px;
+    display: flex;
+    padding: 10px;
+    background-color: rgb(230, 226, 226);
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.UsersNew-main{
+    margin: 0 auto;
+    max-width: max-content;
+}
+
+.NewUsers-title{
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 28px;
+}
+.Signup-Form-section{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Signup-Form-section-submit{
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+    margin-left: 100px;
+}
+
+.Signup-Form-input{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.Signup-FormInput-label{
+    font-size: 18px;
+    color: #454343;
+    margin-bottom: 8px;
+}
+
+.Signup-Form-submit{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    padding: 8px;
+    background-color: #09883e;
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.Signup-Form-HomeLink{
+    margin-left: 255px;
+}
+
+.Password-format{
+    max-width: 400px;
+    margin-bottom: 40px;
+    color: #615f5f;
+}
+
+.Flash-error{
+    text-align: justify;
+    max-width: 400px;
+    margin-bottom: 20px;
+    color: darkred;
+}
+

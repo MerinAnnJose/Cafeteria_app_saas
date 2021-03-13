@@ -1,0 +1,16 @@
+<head>
+    <title>Owners portal</title>
+</head>
+<body>
+    <main class="MenuPage-main">
+        <h1>Menu</h1>
+        <% MenuCategory.all.each do |category| %> <br><br>
+            * <%= category.name %><br>
+            <% category.menu_items.each do |item| %>
+                <%= item.name %> |
+                <%= item.desc %> |
+                <%= item.price %>
+            <% end %> 
+        <% end %>
+    </main>
+</body>

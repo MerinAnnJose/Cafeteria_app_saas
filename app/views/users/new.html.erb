@@ -1,0 +1,28 @@
+<article class="UsersNew-main">
+<p class="NewUsers-title">Welcome new user! Sign-up!</p>
+
+<section class = "UsersNew">
+    <%= form_with(url: users_path, method: "post") do |form| %>
+        <div class = "Signup-Form-section">
+            <p class="Signup-FormInput-label">Name: </p>
+            <%= form.text_field :name, class: "Form-input" %>
+        </div>
+        
+        <div class = "Signup-Form-section">
+            <p class="Signup-FormInput-label">Email: </p>
+            <%= form.email_field :email, class: "Form-input" %>
+        </div>
+
+        <div class = "Signup-Form-section">
+            <p class="Signup-FormInput-label">Password: </p>
+            <%= form.password_field :password, class: "Form-input" %>
+        </div>
+        <p class="Password-format">(Use at least 8 characters, 1 digit, 1 lower_case character, 1 upper_case character, 1 symbol)</p>
+
+        <div class = "Signup-Form-section-submit">
+            <%= form.submit "Sign Up!", class: "Signup-Form-submit" %><br>
+            <%= link_to "Home", "/" ,class: "Signup-Form-HomeLink"%>
+        </div>
+    <% end %>
+</section>
+</article>

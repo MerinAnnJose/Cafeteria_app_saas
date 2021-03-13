@@ -1,0 +1,32 @@
+<head>
+    <title> Cafeteria app </title>
+</head>
+
+<body>
+    <main class = "Home-main">
+        <h1 class = "Home-title">Owner's Portal</h1>
+
+        <section class = "UsersNew">
+            <%= form_with(url: owner_sessions_path, method: "post") do |form| %>
+                <div class = "Form-section">
+                    <p class = "FormInput-label">Email: </p>
+                    <%= form.email_field :email, class: "Form-input" %>
+                </div>
+
+                <div class = "Form-section">
+                    <p class = "FormInput-label">Password: </p>
+                    <%= form.password_field :password, class: "Form-input" %>
+                </div>
+
+                <div class = "Form-section">
+                    <%= form.submit "Sign-in", class: "Form-section-submit" %>
+                </div>
+
+                <div class = "Form-section-links">
+                    <%= link_to "Home", "/" %>
+                </div>
+            <% end %>
+        </section>
+    </main>
+</body>
+

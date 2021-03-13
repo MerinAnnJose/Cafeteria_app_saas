@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+    /*color: #453C52;*/
+    max-width: max-content;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.Home-main{
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+.Home-title{
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.NewUsers-title{
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+.Form-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.Form-section-submit{
+    height: 40px;
+    width: 150px;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 8px;
+    background-color: #09883e;
+    border: 0;
+    border-radius: 4px;
+}
+
+.Form-input{
+    font-size: 15px;
+    padding: 5px;
+}
+/*
+.Form-submit{
+    font-size: 15px;
+    padding: 8px;
+    background-color: #09883e;
+    border: 0;
+    border-radius: 4px;
+}
+*/
+.Form-section-links{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
